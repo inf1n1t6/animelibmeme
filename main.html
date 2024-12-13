@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANILIBME</title>
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff6f61;  
+    transform: scale(1.1); 
+}
+
+
+nav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #ff6f61;
+    transition: width 0.3s ease;
+}
+
+
+nav a:hover::after {
+    width: 0; 
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.slider .overlay h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.newest-movie {
+    padding: 20px;
+}
+
+.newest-movie h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.movie-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    background: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.movie-card img {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.movie-card h3 {
+    font-size: 16px;
+    padding: 10px 5px;
+}
+
+.movie-card span {
+    display: block;
+    color: #ff6f61;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+a {
+
+color: #ff6f61;
+text-decoration: none;
+
+
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ANIMELIBME</div>
+            
+            <div>
+                <a href="main.html">Главная</a>
+                <a href="movie.html">Фильмы</a>
+                <a href="tvshow.html">Сериалы</a>
+                <a>Анонсы</a>
+                <a href="register.html">Регистрация</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <img src="https://images7.alphacoders.com/737/thumb-1920-737400.jpg" alt="Banner Image">
+        <div class="overlay">
+            <h1 >Твоё имя</h1>
+            <p>Драма, школа, романтика</p>
+            <a  href="your name.html">Смотреть</a>
+        </div>
+    </div>
+
+    <section class="newestnmovie">
+        <h2>Сейчас смотрят</h2>
+        <div class="movie-list">
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/411871.jpg?1679354472" alt="Movie 1">
+                <h3>5 сантиметров в секунду</h3>
+                <a href="5.html">Смотреть</a>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/776644.jpg?1675682256" alt="Movie 2">
+                <h3>Наруто: Последний фильм</h3>
+                <a href="naruro.html">Смотреть</a>
+                <span>8.2</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/198989.jpg?1684668432" alt="Movie 3">
+                <h3>Унесённые призраками</h3>
+                <a href="ghost.html">Смотреть</a>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/272350.jpg?1656921385" alt="Movie 3">
+                <h3>Ходячий замок</h3>
+                <a href="castle.html">Смотреть</a>
+                <span>9.0</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/2006806.jpg?1681219688" alt="Movie 3">
+                <h3>Истребитель демонов</h3>
+                <a href="demoslayer.html">Смотреть</a>
+                <span>7.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/1561014.jpg?1678792567" alt="Movie 3">
+                <h3>Форма голоса</h3>
+                <a href="silentvoice.html">Смотреть</a>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/2735600.jpg?1718881461" alt="Movie 3">
+                <h3>Магическая битва 0. Фильм</h3>
+                <a href="jujutsu.html">Смотреть</a>
+                <span>8.0</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/378849.jpg?1668512405" alt="Movie 3">
+                <h3>Эрго Прокси</h3>
+                <a href="ergo.html">Смотреть</a>
+                <span>8.8</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 ANILIBME. Все права защищены.
+    </footer>
+</body>
+</html>

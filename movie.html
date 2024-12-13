@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильмы</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;  
+    transition: color 0.3s ease;  
+}
+
+nav a:hover {
+    color: #ff6f61; 
+}
+
+
+.movies-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.movies-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.movie-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    background: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card img {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.movie-card h3 {
+    font-size: 18px;
+    padding: 10px 5px;
+    color: #333;
+}
+
+.movie-card span {
+    display: block;
+    color: #ff6f61;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.movie-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+a {
+
+color: #ff6f61;
+text-decoration: none;
+
+
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ANIMELIBME</div>
+            <div>
+                <a href="main.html">Главная</a>
+                <a href="movie.html">Фильмы</a>
+                <a href="tvshow.html">Сериалы</a>
+                <a>Анонсы</a>
+                <a href="register.html">Регистрация</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="movies-section">
+        <h2>Фильмы</h2>
+        <div class="movie-list">
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/411871.jpg?1679354472" alt="Movie 1">
+                <h3>5 сантиметров в секунду</h3>
+                <a href="5.html">Смотреть</a>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/776644.jpg?1675682256" alt="Movie 2">
+                <h3>Наруто:Последний фильм</h3>
+                <a href="naruro.html">Смотреть</a>
+                <span>8.2</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/198989.jpg?1684668432" alt="Movie 3">
+                <h3>Унесенные призраками</h3>
+                <a href="naruro.html">Смотреть</a>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/272350.jpg?1656921385" alt="Movie 4">
+                <h3>Ходячий замок</h3>
+                <a href="castle.html">Смотреть</a>
+                <span>9.0</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/2006806.jpg?1681219688" alt="Movie 5">
+                <h3>Истребитель демонов</h3>
+                \<a href="castle.html">Смотреть</a>
+                <span>7.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/1561014.jpg?1678792567" alt="Movie 6">
+                <h3>Форма голоса</h3>
+                <a href="silentvoice.html">Смотреть</a>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/2735600.jpg?1718881461" alt="Movie 7">
+                <h3>Магическая битва 0. Фильм</h3>
+                <a href="silentvoice.html">Смотреть</a>
+                <span>8.0</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/378849.jpg?1668512405" alt="Movie 8">
+                <h3>Эрго Прокси</h3>
+                <a href="silentvoice.html">Смотреть</a>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/1488628.jpg?1629727089" alt="Movie 8">
+                <h3>Ученик чудовища </h3>
+                <a href="silentvoice.html">Смотреть</a>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/681147.jpg?1667317878" alt="Movie 8">
+                <h3>Сад изящных слов</h3>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images.kinorium.com/movie/600/132812.jpg?1629711879" alt="Movie 8">
+                <h3>Истинная грусть </h3>
+                <a href="castle.html">Смотреть</a>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/1654265.jpg?1686913516" alt="Movie 1">
+                <h3>Укрась прощальное утро цветами обещания</h3>
+                <a href="castle.html">Смотреть</a>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images.kinorium.com/movie/600/1626941.jpg?1661363651" alt="Movie 2">
+                <h3>Хочу съесть твою поджелудочную железу</h3>
+                <a href="castle.html">Смотреть</a>
+                <span>8.2</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/198989.jpg?1684668432" alt="Movie 3">
+                <h3>Унесенные призраками</h3>
+                <a href="castle.html">Смотреть</a>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/272350.jpg?1656921385" alt="Movie 4">
+                <h3>Ходячий замок</h3>
+                <a href="castle.html">Смотреть</a>
+                <span>9.0</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/2006806.jpg?1681219688" alt="Movie 5">
+                <h3>Истребитель демонов</h3>
+                <a href="castle.html">Смотреть</a>
+                <span>7.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/1561014.jpg?1678792567" alt="Movie 6">
+                <h3>Форма голоса</h3>
+                <a href="castle.html">Смотреть</a>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/2735600.jpg?1718881461" alt="Movie 7">
+                <h3>Магическая битва 0. Фильм</h3>
+                <a href="castle.html">Смотреть</a>
+                <span>8.0</span>
+            </div>
+           
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ANIMELIBME. Все права защищены.</p>
+    </footer>
+</body>
+</html>

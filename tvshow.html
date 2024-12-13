@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>сериалы</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;  
+    transition: color 0.3s ease;  
+}
+
+nav a:hover {
+    color: #ff6f61; 
+}
+
+
+.movies-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.movies-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.movie-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    background: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.movie-card img {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.movie-card h3 {
+    font-size: 18px;
+    padding: 10px 5px;
+    color: #333;
+}
+
+.movie-card span {
+    display: block;
+    color: #ff6f61;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.movie-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ANIMELIBME</div>
+            <div>
+                <a href="main.html">Главная</a>
+                <a href="movie.html">Фильмы</a>
+                <a href="tvshow.html">Сериалы</a>
+                <a>Анонсы</a>
+                <a href="register.html">Регистрация</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="movies-section">
+        <h2>Сериалы</h2>
+        <div class="movie-list">
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/10775761.jpg?1730131586" alt="Movie 1">
+                <h3>Дандадан </h3>
+                <a href="dandadan.html">Смотреть</a>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/2807611.jpg?1729165825" alt="Movie 2">
+                <h3>Синяя тюрьма: Блю Лок</h3>
+                <span>8.2</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/330650.jpg?1731411095" alt="Movie 3">
+                <h3>Блич</h3>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images.kinorium.com/movie/600/2109463.jpg?1727996299" alt="Movie 4">
+                <h3>Спираль</h3>
+                <span>9.0</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images.kinorium.com/movie/600/9580673.jpg?1696580388" alt="Movie 5">
+                <h3>Звёздное дитя</h3>
+                <span>7.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/8837011.jpg?1673342947" alt="Movie 6">
+                <h3>Ниер: Автомата. Версия 1.1а </h3>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://en-images-s.kinorium.com/movie/600/1481626.jpg?1627467553" alt="Movie 7">
+                <h3>Звучи! Эуфониум  </h3>
+                <span>8.0</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/1670211.jpg?1629807277" alt="Movie 8">
+                <h3>Лагерь на свежем воздухе </h3>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://images-s.kinorium.com/movie/300/550998.jpg?1636528425" alt="Movie 8">
+                <h3>Достучаться до тебя </h3>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/467444.jpg?1679070971" alt="Movie 8">
+                <h3>Тетрадь дружбы Нацумэ </h3>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/1573574.jpg?1665785010" alt="Movie 8">
+                <h3>Моя геройская академия</h3>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/1700728.jpg?1617975132" alt="Movie 1">
+                <h3>О моём перерождении в слизь</h3>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/10513827.jpg?1720444331" alt="Movie 2">
+                <h3>Отряд самоубийц из другого мира  </h3>
+                <span>8.2</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/198989.jpg?1684668432" alt="Movie 3">
+                <h3>Унесенные призраками</h3>
+                <span>8.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/272350.jpg?1656921385" alt="Movie 4">
+                <h3>Ходячий замок</h3>
+                <span>9.0</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/2006806.jpg?1681219688" alt="Movie 5">
+                <h3>Истребитель демонов</h3>
+                <span>7.8</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/1561014.jpg?1678792567" alt="Movie 6">
+                <h3>Форма голоса</h3>
+                <span>8.5</span>
+            </div>
+            <div class="movie-card">
+                <img src="https://ru-images-s.kinorium.com/movie/600/2735600.jpg?1718881461" alt="Movie 7">
+                <h3>Магическая битва 0. Фильм</h3>
+                <span>8.0</span>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ANIMELIBME. Все права защищены.</p>
+    </footer>
+</body>
+</html>

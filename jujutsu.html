@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильмы</title>
+    <style>
+       body {
+           font-family: Arial, sans-serif;
+           margin: 0;
+           padding: 0;
+           background-color: #f9f9f9;
+       }
+
+       header {
+           background-color: #fff;
+           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+           padding: 10px 20px;
+       }
+
+       nav {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+       }
+
+       nav a {
+           text-decoration: none;
+           color: #333;
+           margin: 0 15px;
+           font-size: 14px;
+           font-weight: bold;
+           text-transform: uppercase;
+           position: relative;
+           padding-bottom: 5px;  
+           transition: color 0.3s ease;  
+       }
+
+       nav a:hover {
+           color: #ff6f61; 
+       }
+
+       .anime-card {
+           max-width: 800px;
+           margin: 40px auto;
+           background: #fff;
+           border-radius: 8px;
+           box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+           overflow: hidden;
+       }
+
+       .anime-card img {
+           width: 100%;
+           height: auto;
+       }
+
+       .anime-card-content {
+           padding: 20px;
+       }
+
+       .anime-card-title {
+           font-size: 24px;
+           font-weight: bold;
+           margin-bottom: 15px;
+       }
+
+       .anime-card-description {
+           font-size: 16px;
+           line-height: 1.6;
+           color: #666;
+           margin-bottom: 20px;
+       }
+
+       .video-container {
+           margin-top: 20px;
+           text-align: center;
+       }
+
+       .video-container iframe {
+           width: 100%;
+           max-width: 800px;
+           height: 450px;
+           border: none;
+           border-radius: 8px;
+       }
+
+       footer {
+           background-color: #333;
+           color: #fff;
+           text-align: center;
+           padding: 20px;
+           margin-top: 40px;
+       }
+       .anime-details {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.anime-details li {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.anime-details strong {
+    color: #000;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ANIMELIBME</div>
+            <div>
+                <a href="main.html">Главная</a>
+                <a href="movie.html">Фильмы</a>
+                <a href="tvshow.html">Сериалы</a>
+                <a>Анонсы</a>
+                <a href="register.html">Регистрация</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="anime-card">
+        <div class="anime-card-content">
+            <h2 class="anime-card-title">Магическая битва 0. Фильм </h2>
+            <p class="anime-card-description">
+                Главный герой «Нулевого тома» — Юта Окоцу, в сериале — второкурсник Токийского магического колледжа. В «Нулевом томе» он встречает Сатори Годзе и становится студентом колледжа. Этому предшествуют ужасные события, случившиеся с его подругой Рикой. В итоге Юта замкнулся в себе и боялся сходиться с людьми.
+            </p>
+            <ul class="anime-details">
+                <li><strong>Год выпуска:</strong>2021</li>
+                <li><strong>Жанр:</strong> Приключение, трейлер</li>
+                <li><strong>Режиссёр:</strong> 
+                    Пак Сон-ху
+                    Масатака Акаи
+                    Ёсукэ Такада
+                    </li>
+                <li><strong>Длительность:</strong> 130 минуты</li>
+                <li><strong>Другие названия:</strong> 劇場版 呪術廻戦 0 Япония
+                    Jujutsu Kaisen 0 </li>
+            </ul>
+        </div>
+        <div class="video-container">
+            <iframe src="https://vkvideo.ru/video_ext.php?oid=-185087421&id=456241701&hd=2&autoplay=1" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+
+    <footer>
+        <p>&copy; 2024 ANIMELIBME. Все права защищены.</p>
+    </footer>
+</body>
+</html>
